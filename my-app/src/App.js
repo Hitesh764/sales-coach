@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>AI-Powered Sales Coach</h1>
+        <h1><span style={{color: "#D45203"}}>Salesifyme </span> AI-Powered Sales Coach</h1>
 
         {feedback && (
           <div className="feedback-box">
@@ -52,3 +52,6 @@ function App() {
 }
 
 export default App;
+
+
+
